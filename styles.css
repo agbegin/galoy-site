@@ -37,7 +37,6 @@ header .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 40px; /* Add margin to the top */
 }
 
 header ul {
