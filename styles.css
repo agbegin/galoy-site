@@ -1,9 +1,29 @@
+/* Add your custom styles here */
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
   background-color: #1C3A7A; /* Dark Cornflower Blue */
+}
+
+header a.logo {
+  color: #fff;
+  font-size: 1.5rem;
 }
 
 header a.logo img {
@@ -40,3 +60,37 @@ header ul li a {
   margin-left: 1rem;
 }
 
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #1C3A7A; /* Dark Cornflower Blue */
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+/* Other sections background colors */
+.features {
+  background-color: #fff;
+}
+
+.testimonials {
+  background-color: #e6f0ff; /* Light blue */
+}
+
+footer {
+  background-color: #1C3A7A; /* Dark Cornflower Blue */
+}
