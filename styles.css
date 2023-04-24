@@ -105,9 +105,10 @@ footer {
   background-color: #1C3A7A; /* Dark Cornflower Blue */
   color: #fff;
   padding: 1rem 2rem;
-  position: absolute;
-  bottom: 0;
   width: 100%;
+  clear: both;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-container {
@@ -139,3 +140,21 @@ footer {
   text-decoration: none;
 }
 
+.center-container {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.center-container a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.center-container span {
+  color: #fff;
+  margin: 0 0.5rem;
+}
