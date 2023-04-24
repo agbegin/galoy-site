@@ -40,7 +40,7 @@ header .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px; /* Add margin to the top */
+  margin-top: 0px; /* Add margin to the top */
 }
 
 header ul {
