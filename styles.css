@@ -74,7 +74,7 @@ header ul li a {
   align-items: flex-start; /* Align the text to the left */
   text-align: left;
   max-width: 50%; /* Set the maximum width to 50% of the page */
-  padding: 40px 100px; /* Adjust top and left/right padding */
+  padding: 0px 100px; /* Adjust top and left/right padding */
 }
 
 
@@ -83,7 +83,6 @@ header ul li a {
   margin-bottom: 1rem;
   color: #fff;
   line-height: 1.2;
-  margin-left: calc(-15px - 40px); /* -15px to the left of the hero section, and -40px for the logo width */
 }
 
 
@@ -91,7 +90,6 @@ header ul li a {
   font-size: 1.2rem;
   margin-bottom: 2rem;
   color: #fff;
-  margin-left: calc(-15px - 40px); /* -15px to the left of the hero section, and -40px for the logo width */
 }
 
 /* Other sections background colors */
