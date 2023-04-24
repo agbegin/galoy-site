@@ -292,11 +292,9 @@ footer {
 /* Hamburger menu icon */
 .hamburger-menu {
   display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 18px;
   cursor: pointer;
 }
+
 
 .hamburger-menu span {
   width: 25px;
@@ -305,14 +303,19 @@ footer {
 }
 
 /* Mobile navigation */
+
 .mobile-nav {
   display: none;
-  background-color: #1C3A7A;
   position: absolute;
   top: 100%;
-  left: 0;
+  right: 0;
+  background-color: #1C3A7A;
   width: 100%;
-  padding: 1rem 0;
+  padding: 1rem;
+}
+
+.mobile-nav.active {
+  display: block;
 }
 
 .mobile-nav ul {
@@ -320,27 +323,28 @@ footer {
   flex-direction: column;
 }
 
-.mobile-nav ul li {
+.mobile-nav li {
   margin-bottom: 1rem;
-  text-align: center;
 }
 
-.mobile-nav ul li a {
+.mobile-nav a {
   color: #fff;
 }
 
 /* Show hamburger menu icon and mobile navigation on small screens */
-@media only screen and (max-width: 768px) {
-  .hamburger-menu {
-    display: flex;
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 20px;
   }
 
-  .mobile-nav {
+  header .nav-container {
     display: none;
   }
 
-  .mobile-nav.active {
+  .hamburger-menu {
     display: block;
   }
 }
+
+
 
