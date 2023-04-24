@@ -99,7 +99,7 @@ header ul li a {
 }
 
 .testimonial {
-  background-color: #e6f0ff;
+  background-color: transparent; /* Removed background color */
   margin: 40px 100px;
   display: flex;
 }
@@ -125,6 +125,7 @@ header ul li a {
   padding: 40px;
 }
 
+
 .testimonial .right h2 {
   margin-bottom: 10px;
 }
@@ -135,8 +136,7 @@ header ul li a {
 
 .testimonial .right .logo {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: center; /* Left-align logo and name */
   margin-bottom: 20px;
 }
 
