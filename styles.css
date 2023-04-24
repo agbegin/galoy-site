@@ -1,1 +1,69 @@
 
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1C3A7A; /* Dark Cornflower Blue */
+}
+
+header a.logo {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  margin-left: 1rem;
+}
+
+header ul li a {
+  color: #fff;
+}
+
+.cta-button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #1C3A7A; /* Dark Cornflower Blue */
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+ 
