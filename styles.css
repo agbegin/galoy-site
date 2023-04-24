@@ -79,7 +79,7 @@ header ul li a {
 
 
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   margin-bottom: 1rem;
   color: #fff;
   line-height: 1.2;
@@ -115,7 +115,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .logo-container {
@@ -147,3 +147,4 @@ footer {
 
 .center-container a {
   color: #fff;
+  text-decoration: underline
