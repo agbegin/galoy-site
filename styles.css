@@ -125,13 +125,23 @@ header ul li a {
   padding: 40px;
 }
 
-
 .testimonial .right h2 {
+  font-size: 1.4rem;
   margin-bottom: 10px;
+  color: #1C3A7A; /* Make the testimonial text match the rest of the page */
+  line-height: 1.2; /* Reduce line-height for the testimonial headline */
+}
+
+.testimonial .right h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #1C3A7A; /* Make the testimonial text match the rest of the page */
 }
 
 .testimonial .right p {
+  font-size: 1rem;
   margin-bottom: 20px;
+  color: #666; /* Make the testimonial text match the rest of the page */
 }
 
 .testimonial .right .logo {
