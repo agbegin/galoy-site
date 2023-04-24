@@ -72,7 +72,7 @@ header ul li a {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start; /* Align the text to the left */
-  margin-top: 50px; /* Adjust the margin-top property */
+  margin-top: 0px; /* Adjust the margin-top property */
   text-align: left;
   max-width: 50%; /* Set the maximum width to 50% of the page */
   padding: 0px 100px; /* Adjust top and left/right padding */
