@@ -19,8 +19,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 100px; /* Adjust top and left/right padding */
-  background-color: #1C3A7A; /* Dark Cornflower Blue */
+  padding: 20px 50px; /* Adjust top and left/right padding */
+  background: linear-gradient(45deg, #1C3A7A, #162F6A); /* Add the linear gradient */
 }
 
 header a.logo {
@@ -37,6 +37,7 @@ header .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 20px; /* Add margin to the top */
 }
 
 header ul {
@@ -70,9 +71,6 @@ header ul li a {
   align-items: center;
   text-align: center;
   background: linear-gradient(45deg, #1C3A7A, #162F6A); /* Add the linear gradient */
-}
-
-
 }
 
 .hero h1 {
