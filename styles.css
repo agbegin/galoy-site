@@ -209,17 +209,6 @@ footer {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 600px) {
-  .footer-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .links-container {
-    margin-top: 1rem;
-    width: 100%;
-  }
-}
 
 .features {
   background-color: #fff;
@@ -246,3 +235,58 @@ footer {
   margin-bottom: 1rem;
   color: #666;
 }
+
+/* Mobile Friendly Styles */
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 20px 30px; /* Adjust top and left/right padding */
+  }
+
+  header .nav-container {
+    display: none;
+  }
+
+  .hero {
+    max-width: 100%; /* Set the maximum width to 100% of the page */
+    padding: 0px 30px; /* Adjust top and left/right padding */
+  }
+
+  .testimonial {
+    flex-direction: column;
+  }
+
+  .testimonial .left,
+  .testimonial .right {
+    width: 100%;
+  }
+
+  .footer-container {
+    padding: 0 30px; /* Add left and right padding */
+  }
+
+  .links-container {
+    margin-left: 0; /* Remove left margin */
+  }
+
+  .features {
+    flex-direction: column;
+    padding: 20px 30px; /* Adjust top and left/right padding */
+  }
+
+  .feature-block {
+    width: 100%; /* Set width to 100% of the page */
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
+
+
