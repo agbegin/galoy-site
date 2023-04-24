@@ -75,15 +75,16 @@ header ul li a {
   text-align: left;
   max-width: 50%; /* Set the maximum width to 50% of the page */
   padding: 0px 100px; /* Adjust top and left/right padding */
-  margin-bottom: 2rem; /* Add margin to avoid overlapping footer */
 }
 
+
 .hero h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
   color: #fff;
   line-height: 1.2;
 }
+
 
 .hero p {
   font-size: 1.2rem;
@@ -104,11 +105,10 @@ header ul li a {
 footer {
   background-color: #1C3A7A; /* Dark Cornflower Blue */
   color: #fff;
-  padding: 1rem 2rem;
+  padding: 1rem 100px;
+  position: relative; /* Set the position to relative */
+  margin-top: 80vh; /* Add margin top to push the footer down */
   width: 100%;
-  clear: both;
-  display: flex;
-  flex-direction: column;
 }
 
 .footer-container {
@@ -116,6 +116,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
+  margin-bottom: 20px; /* Add margin to the bottom */
 }
 
 .logo-container {
@@ -138,23 +139,3 @@ footer {
 .links-container a {
   color: #fff;
   text-decoration: none;
-}
-
-.center-container {
-  text-align: center;
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.center-container a {
-  color: #fff;
-  text-decoration: underline;
-}
-
-.center-container span {
-  color: #fff;
-  margin: 0 0.5rem;
-}
