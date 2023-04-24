@@ -19,7 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 50px; /* Adjust top and left/right padding */
+  padding: 40px 100px; /* Adjust top and left/right padding */
   background-color: #1C3A7A; /* Dark Cornflower Blue */
 }
 
@@ -37,6 +37,7 @@ header .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 40px; /* Add margin to the top */
 }
 
 header ul {
