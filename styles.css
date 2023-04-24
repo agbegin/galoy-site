@@ -77,14 +77,12 @@ header ul li a {
   padding: 0px 100px; /* Adjust top and left/right padding */
 }
 
-
 .hero h1 {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
   color: #fff;
   line-height: 1.2;
 }
-
 
 .hero p {
   font-size: 1.2rem;
@@ -116,6 +114,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
+  flex-wrap: wrap;
 }
 
 .logo-container {
@@ -143,8 +142,3 @@ footer {
 .center-container {
   text-align: center;
   margin-top: 20px;
-}
-
-.center-container a {
-  color: #fff;
-  text-decoration: underline
