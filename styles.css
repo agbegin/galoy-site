@@ -75,10 +75,11 @@ header ul li a {
   text-align: left;
   max-width: 50%; /* Set the maximum width to 50% of the page */
   padding: 0px 100px; /* Adjust top and left/right padding */
+  margin-bottom: 2rem; /* Add margin to avoid overlapping footer */
 }
 
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
   color: #fff;
   line-height: 1.2;
@@ -114,7 +115,6 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
-  flex-wrap: wrap;
 }
 
 .logo-container {
@@ -139,6 +139,3 @@ footer {
   text-decoration: none;
 }
 
-.center-container {
-  text-align: center;
-  margin-top: 20px;
