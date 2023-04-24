@@ -115,20 +115,24 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
 }
 
 .logo-container {
   max-height: 30px;
-  padding: 40px;
 }
 
 .links-container ul {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: auto;
+  width: 80%;
 }
 
 .links-container li {
-  margin-left: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .links-container a {
@@ -138,6 +142,7 @@ footer {
 
 .center-container {
   text-align: center;
+  margin-top: 20px;
 }
 
 .center-container a {
@@ -148,9 +153,11 @@ footer {
 @media only screen and (max-width: 600px) {
   .footer-container {
     flex-direction: column;
+    align-items: center;
   }
 
   .links-container {
     margin-top: 1rem;
+    width: 100%;
   }
 }
