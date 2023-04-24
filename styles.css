@@ -128,7 +128,7 @@ header ul li a {
 .testimonial .right h2 {
   font-size: 1.4rem;
   margin-bottom: 10px;
-  color: #1C3A7A; /* Make the testimonial text match the rest of the page */
+  color: #5A5A5A; 
   line-height: 1.2; /* Reduce line-height for the testimonial headline */
 }
 
