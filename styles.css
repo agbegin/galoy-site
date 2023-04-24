@@ -105,9 +105,8 @@ header ul li a {
 footer {
   background-color: #1C3A7A; /* Dark Cornflower Blue */
   color: #fff;
-  padding: 1rem 100px;
-  position: relative; /* Set the position to relative */
-  margin-top: 80vh; /* Add margin top to push the footer down */
+  padding: 1rem 2rem;
+  position: relative;
   width: 100%;
 }
 
@@ -116,7 +115,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
-  margin-bottom: 20px; /* Add margin to the bottom */
+  padding: 0 100px; /* Add left and right padding */
 }
 
 .logo-container {
@@ -128,8 +127,9 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-left: auto;
+  margin-right: auto; /* Align links to the right */
   width: 80%;
+  margin-left: 50px; /* Add left margin */
 }
 
 .links-container li {
@@ -139,3 +139,26 @@ footer {
 .links-container a {
   color: #fff;
   text-decoration: none;
+}
+
+.center-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.center-container a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links-container {
+    margin-top: 1rem;
+    width: 100%;
+  }
+}
