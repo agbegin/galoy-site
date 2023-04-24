@@ -6,6 +6,11 @@ header {
   background-color: #1C3A7A; /* Dark Cornflower Blue */
 }
 
+header a.logo img {
+  max-height: 40px; /* Adjust the logo size */
+  /* Add any other styles for the logo */
+}
+
 header .nav-container {
   display: flex;
   justify-content: space-between;
