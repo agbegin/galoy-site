@@ -23,7 +23,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 100px; /* Adjust top and left/right padding */
+  padding: 40px 100px;
+  position: relative;
 }
 
 header a.logo {
@@ -32,20 +33,19 @@ header a.logo {
 }
 
 header a.logo img {
-  max-height: 40px; /* Adjust the logo size */
-  /* Add any other styles for the logo */
+  max-height: 40px;
 }
 
 header .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 0px; /* Add margin to the top */
+  margin-top: 0px;
 }
 
 header ul {
   display: flex;
-  align-items: center; /* Vertically align the navigation items */
+  align-items: center;
 }
 
 header ul li {
@@ -57,8 +57,8 @@ header ul li a {
 }
 
 .cta-button {
-  background-color: rgba(255, 255, 255, 0.4); /* White with 40% transparency */
-  color: #1C3A7A; /* Dark Cornflower Blue */
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #1C3A7A;
   border: none;
   border-radius: 5px;
   padding: 0.5rem 1rem;
@@ -66,285 +66,56 @@ header ul li a {
   margin-left: 0rem;
 }
 
-.hero {
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start; /* Align the text to the left */
-  margin-top: 0px; /* Adjust the margin-top property */
-  text-align: left;
-  max-width: 50%; /* Set the maximum width to 50% of the page */
-  padding: 0px 100px; /* Adjust top and left/right padding */
-}
-
-
-.hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  color: #fff;
-  line-height: 1.2;
-}
-
-
-.hero p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-  color: #fff;
-}
-
-/* Other sections background colors */
-.features {
-  background-color: #fff;
-}
-
-.testimonial {
-  background-color: transparent; /* Removed background color */
-  margin: 40px 100px;
-  display: flex;
-}
-
-.testimonial .left {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  padding: 40px;
-}
-
-.testimonial .left img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.testimonial .right {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 40px;
-}
-
-.testimonial .right h2 {
-  font-size: 1.4rem;
-  margin-bottom: 10px;
-  color: #1C3A7A; 
-  line-height: 1.2; /* Reduce line-height for the testimonial headline */
-}
-
-.testimonial .right h3 {
-  font-size: 1.1rem;
-  margin-bottom: 10px;
-  color: #242424; /* Make the testimonial text match the rest of the page */
-}
-
-.testimonial .right p {
-  font-size: 1rem;
-  margin-bottom: 20px;
-  color: #666; /* Make the testimonial text match the rest of the page */
-}
-
-.testimonial .right .logo {
-  display: flex;
-  align-items: center; /* Left-align logo and name */
-  margin-bottom: 20px;
-}
-
-.testimonial .right .logo img {
-  max-width: 50px;
-  max-height: 50px;
-  margin-right: 10px;
-}
-
-
-
-
-/* Footer */
-footer {
-  background-color: #1C3A7A; /* Dark Cornflower Blue */
-  color: #fff;
-  padding: 1rem 2rem;
-  position: relative;
-  width: 100%;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-  padding: 0 100px; /* Add left and right padding */
-}
-
-.logo-container {
-  max-height: 30px;
-}
-
-.links-container ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  margin-right: auto; /* Align links to the right */
-  width: 80%;
-  margin-left: 50px; /* Add left margin */
-}
-
-.links-container li {
-  margin-bottom: 0.5rem;
-}
-
-.links-container a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.center-container {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.center-container a {
-  color: #fff;
-  text-decoration: underline;
-}
-
-
-.features {
-  background-color: #fff;
-  display: flex;
-  justify-content: space-between;
-  padding: 40px 100px; /* Adjust top and left/right padding */
-}
-
-.feature-block {
-  width: calc(33.33% - 32px); /* Set width to 1/3 of the page with 32px margin in between */
-  background-color: #f2f2f2; /* Light gray */
-  padding: 20px;
-  border-radius: 5px;
-}
-
-.feature-block h2 {
-  font-size: 1.4rem;
-  margin-bottom: 1rem;
-  color: #1C3A7A;
-}
-
-.feature-block p {
-  font-size: 0.8rem;
-  margin-bottom: 1rem;
-  color: #666;
-}
-
-/* Mobile Friendly Styles */
-@media only screen and (max-width: 768px) {
-  header {
-    padding: 20px 30px; /* Adjust top and left/right padding */
-  }
-
-  header .nav-container {
-    display: none;
-  }
-
-  .hero {
-    max-width: 100%; /* Set the maximum width to 100% of the page */
-    padding: 0px 30px; /* Adjust top and left/right padding */
-  }
-
-  .testimonial {
-    flex-direction: column;
-  }
-
-  .testimonial .left,
-  .testimonial .right {
-    width: 100%;
-  }
-
-  .footer-container {
-    padding: 0 30px; /* Add left and right padding */
-  }
-
-  .links-container {
-    margin-left: 0; /* Remove left margin */
-  }
-
-  .features {
-    flex-direction: column;
-    padding: 20px 30px; /* Adjust top and left/right padding */
-  }
-
-  .feature-block {
-    width: 100%; /* Set width to 100% of the page */
-    margin-bottom: 20px;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .hero h1 {
-    font-size: 2rem;
-  }
-
-  .hero p {
-    font-size: 1rem;
-  }
-}
-
-/* Hamburger menu icon */
-.hamburger-menu {
+/* Hamburger menu styles */
+.hamburger {
   display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 25px;
+  height: 25px;
   cursor: pointer;
 }
 
-
-.hamburger-menu span {
+.hamburger div {
   width: 25px;
-  height: 2px;
+  height: 3px;
   background-color: #fff;
+  border-radius: 5px;
 }
 
-/* Mobile navigation */
-
-.mobile-nav {
-  display: none;
+.nav-container.mobile {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: #1C3A7A;
-  width: 100%;
-  padding: 1rem;
-}
-
-.mobile-nav.active {
-  display: block;
-}
-
-.mobile-nav ul {
-  display: flex;
+  background-color: rgba(0, 0, 0, 0.8);
   flex-direction: column;
+  display: none;
 }
 
-.mobile-nav li {
-  margin-bottom: 1rem;
-}
-
-.mobile-nav a {
-  color: #fff;
-}
-
-/* Show hamburger menu icon and mobile navigation on small screens */
-@media only screen and (max-width: 600px) {
+/* Mobile responsiveness */
+@media (max-width: 768px) {
   header {
-    padding: 20px;
+    padding: 20px 30px;
+  }
+
+  .hamburger {
+    display: flex;
   }
 
   header .nav-container {
     display: none;
   }
+}
 
-  .hamburger-menu {
-    display: block;
+@media (max-width: 768px) and (min-width: 480px) {
+  header .nav-container.mobile {
+    width: 50%;
   }
 }
 
-
-
+@media (max-width: 480px) {
+  header .nav-container.mobile {
+    width: 100%;
+  }
+}
