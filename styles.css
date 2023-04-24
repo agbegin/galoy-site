@@ -99,8 +99,46 @@ header ul li a {
 }
 
 .testimonials {
-  background-color: #e6f0ff; /* Light blue */
+  background-color: #e6f0ff;
+  padding: 80px 100px;
+  margin: 0 -100px;
 }
+
+.testimonial-module {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial-image {
+  width: 50%;
+}
+
+.testimonial-image img {
+  max-width: 100%;
+}
+
+.testimonial-text {
+  width: 50%;
+  text-align: right;
+}
+
+.testimonial-text h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.testimonial-text p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.testimonial-text .testimonial-logo {
+  display: block;
+  max-width: 50px;
+  margin: 0 auto 1rem;
+}
+
 
 /* Footer */
 footer {
