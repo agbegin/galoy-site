@@ -69,7 +69,10 @@ header ul li a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #1C3A7A; /* Dark Cornflower Blue */
+  background: linear-gradient(45deg, #1C3A7A, #162F6A); /* Add the linear gradient */
+}
+
+
 }
 
 .hero h1 {
