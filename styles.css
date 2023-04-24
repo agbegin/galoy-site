@@ -163,3 +163,31 @@ footer {
     width: 100%;
   }
 }
+
+.features {
+  background-color: #fff;
+  padding: 80px 100px;
+}
+
+.features .feature-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.features .feature-block h2 {
+  font-size: 1.5rem;
+  color: #1C3A7A;
+  margin-bottom: 20px;
+}
+
+.features .feature-block p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.5;
+}
+
