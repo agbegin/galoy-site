@@ -101,6 +101,55 @@ header ul li a {
   background-color: #e6f0ff; /* Light blue */
 }
 
+/* Footer */
 footer {
   background-color: #1C3A7A; /* Dark Cornflower Blue */
+  color: #fff;
+  padding: 1rem 2rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  max-height: 30px;
+}
+
+.links-container ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.links-container li {
+  margin-left: 1rem;
+}
+
+.links-container a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.center-container {
+  text-align: center;
+}
+
+.center-container a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .links-container {
+    margin-top: 1rem;
+  }
 }
